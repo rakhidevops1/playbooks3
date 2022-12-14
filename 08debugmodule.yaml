@@ -1,0 +1,10 @@
+---
+- hosts: all
+  vars: 
+   name: Rakesh Software Technologies
+   Technology: DevOps
+  tasks:
+  - name: Debug Module
+    debug:
+     var: name
+...

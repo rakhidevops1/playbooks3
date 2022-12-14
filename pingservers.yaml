@@ -1,0 +1,8 @@
+---
+- hosts: all
+  gather_fact: no
+  tasks:
+  - name: ping all servers 
+    ping:  
+...
+

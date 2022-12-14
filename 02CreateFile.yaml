@@ -1,0 +1,11 @@
+---
+- hosts: all
+  tasks:
+  - name: Creating the file in hostmachines
+    file:
+      path: /tmp/sudheertechnologies.txt
+      state: touch
+      owner: ansible
+      group: ansible 
+      mode: 0777 
+...
